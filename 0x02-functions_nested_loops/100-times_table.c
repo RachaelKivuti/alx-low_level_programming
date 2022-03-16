@@ -42,6 +42,6 @@ void prints_times_table(int n)
 			}
 		}
 		_putchar('\n');
-		x++;
+		++x;
 	}
 }
