@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description: Find and print the first 98 fib numbers starting with 1 and 2.
- * Numbers should be coma and space separated.
+ * Numbers should be coma ans space seperated.
  * Return: 0
  */
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 			hold1 = (bk1 + bk2) / LARGEST;
 			hold2 = (bk1 + bk2) % LARGEST;
 			hold3 = fr1 + fr2 + hold1;
-			fr1 = fr2, fr2 = hold3;
+			fr1 = fr2, fr2  = hold3;
 			bk1 = bk2, bk2 = hold2;
 			printf("%lu%010lu", fr2, bk2);
 		}
@@ -36,4 +36,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-© 2022 GitHub, Inc.
