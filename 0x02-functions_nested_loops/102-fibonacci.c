@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
  * main - main block
- * computes and prnts sum of all multiples of 3 or 5
+ * Description: computes and prints sum of all multiples of 3 or
+ * 5 below1024 (execluded), followed ny a new line
  * Return: 0
  */
 int main(void)
 {
 	int i = 0;
 
-	lont int a = 0, b = 1, next;
+	long int a = 0, b = 1, next;
 
 	while (i < 50)
 	{
