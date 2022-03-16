@@ -6,16 +6,16 @@
  */
 void prints_times_table(int n)
 {
-	int x = 0, rep, y;
+	int i = 0, rep, b;
 
 	if (n < 0 || n > 15)
 		return;
-	while (x <= n)
+	while (i <= n)
 	{
-		for (y = 0; y <= n; ++y)
+		for (b = 0; b <= n; ++b)
 		{
-			rep = x * y;
-			if (y == 0)
+			rep = i * b;
+			if (b == 0)
 				_putchar('0' + rep);
 			else if (rep < 10)
 			{
@@ -35,13 +35,13 @@ void prints_times_table(int n)
 				_putchar('0' + (rep - 100) / 10);
 				_putchar('0' + rep % 10);
 			}
-			if (y < n)
+			if (b < n)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
 		}
 		_putchar('\n');
-		++x;
+		++i;
 	}
 }
