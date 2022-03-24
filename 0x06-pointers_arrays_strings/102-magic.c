@@ -11,8 +11,8 @@ int main(void)
  /*
   * write your line of code here...
   * Remember:
-  * - you are not allowed to usea
-  * - you are not allowed to modifyp
+  * - you are not allowed to use a
+  * - you are not allowed to modify p
   * - only one statement
   * - you are not allowed to code anything else thanthis line of code
   */
