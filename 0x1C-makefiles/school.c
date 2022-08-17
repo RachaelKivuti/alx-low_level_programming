@@ -1,13 +1,11 @@
 #include "m.h"
 
 /**
- * print_School - print the logo of School
+ * print_school
  *
  * Return: Nothing
- *
- * Learn more: https://www.Schoolschool.com
  */
-void print_School(void)
+void print_school(void)
 {
 	printf("j#0000000000000000000000000000000000000\n");
 	printf("j#000000000000000000@Q**g00000000000000\n");
